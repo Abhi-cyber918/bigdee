@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha (Bigdee) - Special Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            font-family: 'Dancing Script', cursive;
+            background: linear-gradient(to bottom, #ffe5b4, #ffcba4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            animation: backgroundMove 10s infinite alternate;
+        }
+
+        @keyframes backgroundMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 247, 230, 0.9); /* Slightly darker background for contrast */
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 500px;
+            width: 90%;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ff7f50;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adds a slight shadow to enhance visibility */
+        }
+        h1 span {
+            color: #ff4500;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #333; /* Darker color for better visibility */
+            margin: 10px 0;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Light shadow to prevent blur effect */
+        }
+        .heart {
+            font-size: 2rem;
+            color: #ff4500;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #555;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, <span>Sneha (Bigdee)!</span> ❤️</h1>
+        <p>Tum asadharan, meethi aur ekdam ananya ho!</p>
+        <p>Tumhari hasi dekhkar sab kuch sundar lagta hai. 😊</p>
+        <p class="heart">💖💖💖</p>
+        <p>Hope this website brings a smile to your face! 😊</p>
+        <footer>Your little gift from me to you, filled with love and happiness! 💝</footer>
+    </div>
+</body>
+</html>
